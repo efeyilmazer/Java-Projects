@@ -12,7 +12,7 @@ public class App {
                             //Ekrana yazdırma
         /* System.out.println("Hello, World!"); */
                             //Sayı ve karakter değerleri
- /* int a = 32;
+ int a = 32;
     double b = 3.14;
     float c = 3.14f;
     char d = 'A';
@@ -23,15 +23,15 @@ public class App {
         System.out.println ("c:" + c);
         System.out.println ("d:" + d);
         System.out.println ("e:" + e);
-        System.out.println ("test:" + test); */
+        System.out.println ("test:" + test);
                             //Cebirsel işlemler
- /* int a = 20;
+ int a = 20;
     int b = 15;
         System.out.println(a + b);
         System.out.println(a - b);
         System.out.println(a * b);
         System.out.println(a / (double)b);
-        System.out.println(a % b); */
+        System.out.println(a % b);
                             //Değer arttırma yolları (Hepsi 1 arttırır)
   /* int a = 5;
   a = a + 1;
