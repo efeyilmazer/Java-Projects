@@ -33,11 +33,11 @@ public class App {
         System.out.println(a / (double)b);
         System.out.println(a % b);
                             //Değer arttırma yolları (Hepsi 1 arttırır)
-  /* int a = 5;
+  int a = 5;
   a = a + 1;
   a += 1;
   a++;
-  System.out.println(a); */
+  System.out.println(a); 
 
                             //Girilen sayıyı ekrana yazdıran program
 /* System.out.println("Sayi giriniz");
