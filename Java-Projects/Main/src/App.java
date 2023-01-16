@@ -46,14 +46,14 @@ System.out.println("Girilen sayi = "+sayi);
 
                             //50'den fazlaysa geçiren not programı
 
-/* System.out.println ("Not giriniz");
+System.out.println ("Not giriniz");
 String s =br.readLine();
 int not = Integer.parseInt(s);
 
 if (not >= 50)
         System.out.println("Geçti");
 if (not < 50)
-        System.out.println("Kaldı"); */
+        System.out.println("Kaldı");
 
                             //Sayının tek mi çift mi olduğunu bulan program
 /* System.out.println("Sayı giriniz");
