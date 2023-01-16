@@ -40,9 +40,9 @@ public class App {
   System.out.println(a); 
 
                             //Girilen sayıyı ekrana yazdıran program
-/* System.out.println("Sayi giriniz");
+System.out.println("Sayi giriniz");
 String sayi = br.readLine();
-System.out.println("Girilen sayi = "+sayi); */
+System.out.println("Girilen sayi = "+sayi);
 
                             //50'den fazlaysa geçiren not programı
 
