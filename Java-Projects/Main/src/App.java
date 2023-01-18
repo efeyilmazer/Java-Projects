@@ -10,7 +10,7 @@ public class App {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
                             //Ekrana yazdırma
-        /* System.out.println("Hello, World!"); */
+        System.out.println("Hello, World!");
                             //Sayı ve karakter değerleri
  int a = 32;
     double b = 3.14;
@@ -56,16 +56,16 @@ if (not < 50)
         System.out.println("Kaldı");
 
                             //Sayının tek mi çift mi olduğunu bulan program
-/* System.out.println("Sayı giriniz");
+ System.out.println("Sayı giriniz");
 String s = br.readLine();
 int sayi = Integer.parseInt(s);
 if (sayi % 2 == 0)
         System.out.println("Sayı çifttir");
 else
         System.out.println("Sayı tektir");
-        */
+        
                             //Tüketilen voltaja bağlı olarak fatura hesaplama programı         
-/* System.out.println("Voltaj birimini giriniz");
+ System.out.println("Voltaj birimini giriniz");
 String s = br.readLine();
 int voltaj = Integer.parseInt(s);
 int fatura;
@@ -86,7 +86,7 @@ else
     System.out.println("Ödenecek Fatura = " + fatura); */
 
                         //Girilen sayıyı Küçük/Büyük sıralaması yapar
-/*    int sayi1, sayi2;
+   int sayi1, sayi2;
 System.out.println("Bir sayı giriniz");
 String s = br.readLine();
 sayi1 = Integer.parseInt(s);
@@ -102,9 +102,9 @@ else {
     System.out.println("Küçük sayı : " + sayi2);
     System.out.println("Büyük sayı : " + sayi1);
 }
-*/
+
                             // Girilen 3 tam sayıdan en büyüğünü yazdıran program
-/* int sayi1,sayi2,sayi3;
+int sayi1,sayi2,sayi3;
     System.out.println("Bir sayı giriniz");
     String s = br.readLine();
     sayi1 = Integer.parseInt(s);
@@ -121,9 +121,9 @@ else {
                 System.out.println("En büyük sayı = " + sayi2);
                     else
                     System.out.println("En büyük sayı = " + sayi3);
-                     */
+                     
                             //Klavyeden girilen sayıya denk gelen hata kodu
-/* System.out.println("Hata kodunu giriniz");
+ System.out.println("Hata kodunu giriniz");
 String s = br.readLine();
     int HataKodu = Integer.parseInt(s);
 
@@ -134,9 +134,9 @@ String s = br.readLine();
         case 4: System.out.println("PANIC"); break;
         case 5: System.out.println("UNKNOWN"); break;
         default: System.out.println("YANLIŞ KOD GİRDİNİZ"); break;
-    } */
+    } 
                             //İki sayı üzerinde switch komutu kullanarak cebirsel işlem
-/* int sayi1,sayi2;
+ int sayi1,sayi2;
 System.out.println(" + - * /");
 String s = br.readLine();
 char c = s.charAt(0);
@@ -156,11 +156,11 @@ switch (c) {
     case '/':
         System.out.println("Sonuç = " + (sayi1/sayi2)); break;
             default: System.out.println("Yanlış operator girdiniz");
-    } */
+    } 
     
                             //1 ile 100 arasındaki tam sayıların, tek sayıların ve çift sayıların toplamını hesaplayan program
 
-/* int tam=0, tek=0, cift=0;
+int tam=0, tek=0, cift=0;
     for (int i=1; i<101;i++) {
         tam = tam + i;
         if (i%2 != 0)
@@ -171,9 +171,9 @@ switch (c) {
         System.out.println("Tamsayılar toplamı = " + tam);
         System.out.println("Tek sayılar toplamı = " + tek);
         System.out.println("Çift sayılar toplamı = " + cift);
-*/
+
                             //Girilen herhangi bir tamsayının basamaklarını ayrı ayrı ekrana yazdıran program
-/* int sayi, basamak;
+/int sayi, basamak;
     System.out.println("Sayı giriniz");
     String s = br.readLine();
     sayi = Integer.parseInt(s);
@@ -182,9 +182,9 @@ switch (c) {
         System.out.println(basamak);
         sayi = (sayi-basamak)/10;
     }
-*/
+
                             //-1 Değeri girilene kadar sayı okuyup ortalamasını alan program
-/*int Toplam=0, Sayi=123, Sayac=0;
+int Toplam=0, Sayi=123, Sayac=0;
 float Ortalama;
     while (Sayi!=-1) {
         System.out.println("Sayı giriniz:");
@@ -195,10 +195,9 @@ float Ortalama;
     }
     Ortalama = (float)++Toplam/--Sayac;
     System.out.println("Ortalama = "+ Ortalama);
-*/
 
                             //Sürekli sayı okuyup sıfır girilene kadar teklerin ve çiftlerin ayrı ortalamasını alan program
-/* int sayi,Tektoplam = 0, CiftToplam=0, Teksayac=0,Ciftsayac=0;
+ int sayi,Tektoplam = 0, CiftToplam=0, Teksayac=0,Ciftsayac=0;
 float CiftOrtalama,TekOrtalama;
     String s;
         do {
@@ -218,10 +217,10 @@ float CiftOrtalama,TekOrtalama;
         TekOrtalama = (float)Tektoplam/Teksayac;
         CiftOrtalama = (float) CiftToplam/--Ciftsayac;
             System.out.println("Tek sayıların ortalaması = " +TekOrtalama);
-            System.out.println("Çift sayıların ortalaması = " +CiftOrtalama); */
+            System.out.println("Çift sayıların ortalaması = " +CiftOrtalama); 
 
             //Eleman sayısı ve değerlerini girip elemanların toplamını yazan program
-                            /*
+                            
 int [] ilkdizimiz;
 int diziuzunlugu, Toplam=0;
         System.out.println("Dizinin eleman sayısını giriniz");
@@ -234,7 +233,7 @@ int diziuzunlugu, Toplam=0;
             ilkdizimiz [i] = Integer.parseInt(s);
             Toplam += ilkdizimiz[i];
         }
-            System.out.println("Toplam = " +Toplam); */
+            System.out.println("Toplam = " +Toplam); 
 
 /* 
 • Bir nakliye şirketi için uygulama geliştireceğimizi düşünelim.
