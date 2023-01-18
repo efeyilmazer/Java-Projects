@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.annotation.Repeatable;
 import javax.lang.model.util.ElementScanner14;
-import javax.swing.event.SwingPropertyChangeSupport;
+import javax.swing.event.SwingPropertyChangeSupport;..
 
 public class App {
     public static void main(String[] args) throws IOException {
