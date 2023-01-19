@@ -1,4 +1,4 @@
-import java.io.BufferedReader;
+öimport java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.annotation.Repeatable;
