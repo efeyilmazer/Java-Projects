@@ -12,7 +12,7 @@ public class App {
                             //Ekrana yazdırma
         System.out.println("Hello, World!");
                             //Sayı ve karakter değerleri
- int a = 32;
+ int  a = 32;
     double b = 3.14;
     float c = 3.14f;
     char d = 'A';
